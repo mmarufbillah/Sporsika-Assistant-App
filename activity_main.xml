@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#EAF6F6">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Sporsika!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#006666"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/playIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎧 স্পর্শিকা শুরু করো"
+        android:background="#00CCCC"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/learnDua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📖 দোয়া শেখো"
+        android:background="#339999"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"/>
+</LinearLayout>
